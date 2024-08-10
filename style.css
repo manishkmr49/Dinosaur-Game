@@ -1,0 +1,104 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: linear-gradient(grey,white);
+    overflow-y: hidden;
+}
+#gamebox{
+    height: 300px;
+    width: 600px;
+    border: 2px solid black;
+    margin: auto;
+    background-color: white;
+    margin-top: 170px;
+    margin-bottom: 273px;
+    position: relative;
+    overflow-x: hidden;
+}
+#dino{
+    width: 59px;
+    position: absolute;
+    top: 241px;
+     left: 0px;
+}
+.animation{
+    animation: dino .3s ease-in-out .1s;
+}
+@keyframes dino{
+    0%{
+        top:241px ;
+    }
+    50%{
+        top: 140px;
+    }
+    100%{
+        top: 241px;
+    }
+}
+.right{
+    animation: right .5s ease-in-out .1s;
+}
+@keyframes right{
+    100%{
+      left: 20px;
+    }
+    0%{
+        left: 20px;
+    }
+}
+
+#smalltree{
+    width: 21px;
+    position: absolute;
+    top: 260px;
+    left: 169px;
+}
+
+#bigtree{
+    position: absolute;
+    top: 261px;
+    left: 468px;
+}
+.bigtreeanimation{
+
+    animation: tree 2s ease-in 1s infinite;
+}
+@keyframes tree{
+    0%{
+        left: 603px;
+    }
+    100%{
+        left: -36px;
+    }
+
+}
+
+.smalltreeanimation{
+
+    animation: tree 2s ease-in infinite;
+}
+@keyframes tree{
+    0%{
+        left: 603px;
+    }
+    100%{
+        left: -36px;
+    }
+
+}
+
+#scorecard{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+#score{
+    margin-left: 4px;
+}
+
+#gameover{
+    width: 249px;
+    margin-left: 172px;
+    margin-top: 57px;
+}
