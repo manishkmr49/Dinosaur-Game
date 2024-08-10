@@ -66,5 +66,6 @@ To get a local copy up and running, follow these steps:
 5. Open a Pull Request
 
 **Contact**
-   For any questions, issues, or feedback, please visit our `Contact Repository`: 
-      https://github.com/manishkmr49/contact-repository-.
+
+   For any questions, issues, or feedback, please visit our [Contact Repository](https://github.com/manishkmr49/contact-repository-).
+
