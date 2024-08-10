@@ -68,5 +68,5 @@ To get a local copy up and running, follow these steps:
 
 **Contact**
 
-   For any questions, issues, or feedback, please visit our [Contact Repository](https://github.com/manishkmr49/contact-repository-).
+   For any questions, issues, or feedback, please visit our [Contact Repository](https://github.com/manishkmr49/contact-repository-/issues).
 
