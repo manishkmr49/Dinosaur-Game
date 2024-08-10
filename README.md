@@ -43,9 +43,10 @@ To get a local copy up and running, follow these steps:
 
 
 ## Usage
- Space Bar: Jump over obstacles.
- Down Arrow: Duck under obstacles.
- Collect Points: Try to achieve the highest score!
+
+-  Space Bar*: Jump over obstacles.
+-  Down Arrow: Duck under obstacles.
+-  Collect Points: Try to achieve the highest score!
 
 ## Contributing
   Contributions are welcome! Please follow these steps if you want to contribute:
